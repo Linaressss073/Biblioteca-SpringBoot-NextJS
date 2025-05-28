@@ -45,6 +45,3 @@
 - Preparado para transición a entorno productivo con PostgreSQL y despliegue en Render + Vercel.
 
 ---
-
-## 📂 Estructura del proyecto
-
