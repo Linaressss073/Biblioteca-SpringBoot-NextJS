@@ -25,7 +25,7 @@
 |-------------|-----------------------------|
 | Backend     | Spring Boot, JPA (Hibernate) |
 | Frontend    | Next.js, React              |
-| Base de datos | SQLite (local), PostgreSQL (opcional) |
+| Base de datos | PostgreSQL (render) |
 | Herramientas | Maven, IntelliJ IDEA       |
 
 ---
