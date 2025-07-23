@@ -10,6 +10,8 @@ FROM node:18-alpine
 
 WORKDIR /app
 COPY --from=builder /app ./
+RUN npm install --omit=dev  # Elimina dependencias de desarrollo
+
 EXPOSE 3000
 
 CMD ["npm", "start"]
