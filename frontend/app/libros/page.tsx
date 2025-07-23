@@ -1,5 +1,5 @@
 'use client';
-export const dynamic = 'force-dynamic';
+
 
 import { useState, useEffect } from 'react';
 import { librosAPI, Libro } from '../../lib/api';
@@ -182,3 +182,5 @@ export default function LibrosPage() {
     </div>
   );
 }
+
+export const dynamic = 'force-dynamic';
